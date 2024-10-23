@@ -32,7 +32,7 @@ function initBattle() {
     document.querySelector('#attacksBox').append(button)
   })
 
-  // our event listeners for our buttons (attack)
+  (attack)
   document.querySelectorAll('button').forEach((button) => {
     button.addEventListener('click', (e) => {
       const selectedAttack = attacks[e.currentTarget.innerHTML]
@@ -124,8 +124,7 @@ function animateBattle() {
 }
 
 animate()
-// initBattle()
-// animateBattle()
+
 
 document.querySelector('#dialogueBox').addEventListener('click', (e) => {
   if (queue.length > 0) {
