@@ -66,7 +66,7 @@ function initBattle() {
         })
       }
 
-      // draggle or enemy attacks right here
+      
       const randomAttack =
         draggle.attacks[Math.floor(Math.random() * draggle.attacks.length)]
 
